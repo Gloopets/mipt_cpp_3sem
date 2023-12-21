@@ -1,7 +1,5 @@
 #include <iostream>
 #include <iomanip>
-//Огромная благодарность Павлу Колесникову
-//за столь же огромную проделанную им работу
 
 using std::endl;
 using std::cout;
@@ -14,10 +12,6 @@ struct Node{
     Node* left = nullptr;
     Node* right = nullptr;
 
-    //Я РУССКИЙ
-    //Я ИДУ ДО КОНЦА
-    //Я РУССКИЙ
-    //МОЯ КРОВЬ ОТ ОТЦААА
     Node* parent = nullptr;
     bool color = black;
 };
